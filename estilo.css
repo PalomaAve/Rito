@@ -1,0 +1,19 @@
+body  {
+    background-color: #455F39;
+}
+h1 {
+    background-color: #CAC4B6;
+}
+p {
+    color: #101110;
+}
+#historia {
+    background-color: #95B49C;
+    padding: 20px;
+    border-radius: 10px;
+}
+.imagen {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
