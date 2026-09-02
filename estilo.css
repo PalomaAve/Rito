@@ -6,14 +6,15 @@ body  {
 h1 {
     background-color: #CAC4B6;
     font-family: "Rubik Distressed", system-ui;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
 }
 p {
     color: #101110;
      font-family: "Rancho", cursive;
-  font-weight: 400;
+  font-weight: 600;
   font-style: normal;
+  font-size: 1.5em;
 }
 
 #inicio {
@@ -27,6 +28,8 @@ p {
     border:#ffffff solid 3px;
     width: 80vw;
     flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 1.5em;
 }
 
 #final {
@@ -39,7 +42,10 @@ p {
 }
 
 .escena {
-  height: 55vh;
+  height: 60vh;
   margin: 15px;
+}
+.escena:hover {
+    height: 120%;
 }
 
