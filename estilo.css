@@ -1,19 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Rubik+Distressed&family=Stardos+Stencil:wght@400;700&display=swap');
+
 body  {
     background-color: #455F39;
 }
 h1 {
     background-color: #CAC4B6;
+    font-family: "Rubik Distressed", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 p {
     color: #101110;
+     font-family: "Rancho", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#inicio {
+    color: #ffffff;
 }
 #historia {
     background-color: #95B49C;
     padding: 20px;
     border-radius: 10px;
+    display: flex;
+    border:#ffffff solid 3px;
+    width: 80vw;
+    flex-wrap: wrap;
+}
+
+#final {
+    height: 10vh;
 }
 .imagen {
-    width: 50%;
-    height: auto;
+    width: auto;
+  height: 90%;
     border-radius: 10px;
 }
+
+.escena {
+  height: 55vh;
+  margin: 15px;
+}
+
